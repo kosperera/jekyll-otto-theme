@@ -1,0 +1,13 @@
+title_docker: "@docker"
+url: http://localhost:8004
+baseurl: ""
+show_drafts: true
+future: true
+unpublished: true
+
+
+# Collections
+collections:
+  preview:
+    output: true
+    permalink: /:collection/:path/

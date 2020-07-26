@@ -30,7 +30,7 @@ redirect_from:
 - [liquid](https://github.com/Shopify/liquid) by Shopify
 - [jekyll-docker](https://github.com/envygeeks/jekyll-docker)
 - [publisher](https://github.com/sosedoff/actions/tree/master/publisher) Actions for GitHub Pages
-- [actions-gh-pages](https://github.com/peaceiris/actions-gh-pages)
+- [actions-gh-pages](https://github.com/peaceiris/actions-gh-pages) (recommended)
 
 ### Troubleshooting
 
@@ -52,6 +52,9 @@ redirect_from:
 - [wtf-forms](https://github.com/mdo/wtf-forms/tree/gh-pages)
 - [jekyll-snippets](https://github.com/mdo/jekyll-snippets)
 - [academicpages](https://github.com/academicpages/academicpages.github.io)
+- [pixyll > build.yml](https://github.com/johno/pixyll/blob/master/.github/workflows/build.yml) GitHub Workflow build action
+- [bookworm > publish.yml](https://github.com/kosalanuwan/bookworm/blob/master/.github/workflows/publish.yml) GitHub Workflow to build and publish `_site/**/**`
+- [bookworm.gemspec](https://github.com/kosalanuwan/bookworm/blob/master/bookworm.gemspec) Jekyll Theme support
 
 ### Services
 

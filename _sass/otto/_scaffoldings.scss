@@ -113,10 +113,13 @@ ul ul {
 hr {
     width: 6rem;
     height: 1px;
-    // margin: 2rem auto;
     margin: 2.5rem 0;
     background-color: var(--hr-color);
     border: 0
+}
+
+article {
+    margin-top: var(--gutter);
 }
 
 /* Tighten up margin on last items */

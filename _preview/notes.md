@@ -15,8 +15,8 @@ redirect_from:
 - [Troubleshooting](#troubleshooting)
 - [Libraries](#libraries)
 - [Tools](#tools)
-- Services
-- Databases
+- [Services](#services)
+- [Databases](#databases)
 - [Examples](#examples)
 - Books
 - Videos
@@ -65,6 +65,10 @@ redirect_from:
 ### Services
 
 - [Rubygems](https://rubygems.org/) is the NPM for Jekyll Plugins
+
+### Databases
+
+- [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
 ### Articles
 

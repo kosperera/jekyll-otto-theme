@@ -1,0 +1,13 @@
+<div class="masthead">
+    <h1>
+        <a href="/">
+            {{ site.title }}
+        </a>
+    </h1>
+    <p class="lead">
+        {{ site.description }}
+    </p>
+    {% if jekyll.environment == "docker" %}
+    <p class="lead-excerpt">{{ site.title_excerpt | default: "You are on docker!" }}</p>
+    {% endif %}
+</div>

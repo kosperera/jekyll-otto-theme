@@ -51,6 +51,7 @@ sass:
 # Gems
 plugins:
   - github-pages
+  - jemoji
   - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap   

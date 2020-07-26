@@ -1,6 +1,7 @@
 ---
 permalink: /
 layout: default
+title: Welcome
 ---
 
 ## Welcome

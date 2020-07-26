@@ -3,31 +3,18 @@ permalink: /
 layout: default
 ---
 
-### This page is your welcome page!
+## Welcome
 
-bam! boom shak-a-laka!
+Originally, this site is an adaptation with lots of <3 from [Mark Otto's WTF website](http://wtfhtmlcss.com/). In case you were wondering, this site is:
 
-<div class="post talk">
-<div class="speakerdeck-embed-wrapper"><iframe class="speakerdeck-iframe" frameborder="0" src="//speakerdeck.com/player/ca752bab13514a9086ef3788f4c65676?" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="border: 0px; background: padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 648px; height: 364px;"></iframe></div>
-</div>
+- A GitHub [Template Repository]()
+- Coded with [VS Code]()
+- Built on [Jekyll Standard Docker Image](), and
+- Hosted on [GitHub Pages]()
 
-<div class="post talk">
-<div class="speakerdeck-embed-wrapper"><iframe class="speakerdeck-iframe" frameborder="0" src="//speakerdeck.com/player/5945a22dec344765b8469d051ae80ded?" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="border: 0px; background: padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 648px; height: 364px;"></iframe></div>
-</div>
+### Content
 
-```css
-:root {
-  --body-bg: #fafafa;
-  --body-color: #555;
-  --link-color: #222;
-  --link-color-hover: #000;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --body-bg: #212529;
-    --body-color: #6c757d;
-    --link-color: #dee2e6;
-    --link-color-hover: #fff;
-  }
-}
-```
+- Layout examples: [Default](/), [Page](/page/), [Post](/post/)
+- [URL-redirect](/notes/) example
+- Content examples: [Speaker Decks](/page/), and [Code snippets](/post/)
+- [Awesome lists](/notes/) of learnings

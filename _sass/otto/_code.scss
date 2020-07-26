@@ -1,0 +1,101 @@
+@charset 'UTF-8';
+
+/*
+ * Code
+ */
+
+code,
+pre {
+    font-family: var(--monospace-font);
+}
+
+code {
+    padding-right: .1em;
+    padding-left: .1em;
+    font-size: 85%;
+    font-style: normal;
+    font-weight: normal;
+    color: var(--code-color)
+}
+
+@media (max-width: 30em) {
+    code {
+        word-break: break-word
+    }
+}
+
+pre {
+    display: block;
+    margin: 0 0 1rem;
+    font-size: .85rem;
+    line-height: 1.4
+}
+
+pre code {
+    padding: 0;
+    font-size: 100%;
+    color: inherit;
+    background-color: transparent
+}
+
+pre.highlight {
+    margin-right: calc(var(--gutter) * -1);
+    margin-bottom: 1rem;
+    margin-left: calc(var(--gutter) * -1);
+    padding: 0.75rem var(--gutter);
+    overflow: auto;
+    background-color: var(--pre-bg);
+    -ms-overflow-style: -ms-autohiding-scrollbar
+}
+
+@media (min-width: 34em) {
+    pre.highlight {
+        margin-right: 0;
+        margin-left: 0;
+        padding-left: calc(var(--gutter) - .25rem);
+        border-left: 0.25rem solid var(--code-snippet-border)
+    }
+}
+
+.gist .gist-file {
+    font-family: var(--monospace-font);
+}
+
+.gist .gist-file .gist-data {
+    font-size: 80% !important;
+    line-height: 1.4
+}
+
+.gist .markdown-body {
+    padding: 15px
+}
+
+.gist .highlight {
+    margin-bottom: 0;
+    padding: 0;
+    background-color: transparent
+}
+
+.gist pre {
+    padding: 0;
+    background-color: transparent
+}
+
+.gist code {
+    padding: 0;
+    color: inherit;
+    background-color: transparent;
+    border-radius: 0
+}
+
+blockquote {
+    position: relative;
+    padding: 0 0 0 1.5rem;
+    margin: 0 2rem 1rem -2rem;
+    color: var(--secondary-color);
+    border-left: 0.5rem solid var(--blockquote-border)
+}
+
+blockquote p:last-child {
+    margin-bottom: 0
+}

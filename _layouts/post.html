@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<h2>{{ page.title }}</h2>
+<div class="meta">{{ page.tagline }}</div>
+{% if site.show_post_meta %}
+{% include post-meta.html %}
+{% endif %}
+<article>
+  {{ content }}
+</article>

@@ -14,7 +14,7 @@ Originally, this site is an adaptation with lots of <3 from [Mark Otto's WTF web
 
 ### Content
 
-- Layout examples: [Default](/), [Page](/page/), [Post](/post/)
+- Layout examples: [Default](/), [Page](/page/), [Post](/post/), and [Aw, Span!](/not-found/)
 - [URL-redirect](/notes/) example
 - Content examples: [Speaker Decks](/page/), and [Code snippets](/post/)
-- [Awesome lists](/notes/) of learnings
+- [Awesome list](/notes/) of learnings

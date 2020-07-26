@@ -1,4 +1,4 @@
-title_docker: "@docker"
+title_excerpt: "Oh, you are running on docker btw!"
 url: http://localhost:8004
 baseurl: ""
 show_drafts: true

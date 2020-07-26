@@ -4,7 +4,7 @@ version: 1.0.0
 # Setup
 title: Otto
 description: >- # tagline can be a bit lengthy sometimes
-  Otto theme is a simple Jekyll theme. It is an adaptation from Mark Otto's website.
+  A simple theme ideal for static sites, books, and creative writing that emphasizes content rather than aesthetic fluff.
 url: https://kosalanuwan.github.io
 baseurl: "/otto-theme"
 repository: kosalanuwan/otto-theme

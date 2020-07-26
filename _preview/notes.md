@@ -13,7 +13,7 @@ redirect_from:
 
 - [Community](#community)
 - [Troubleshooting](#troubleshooting)
-- Libraries
+- [Libraries](#libraries)
 - [Tools](#tools)
 - Services
 - Databases
@@ -28,16 +28,21 @@ redirect_from:
 
 - [jekyll](https://github.com/jekyll/jekyll)
 - [liquid](https://github.com/Shopify/liquid) by Shopify
-- [rfs](https://github.com/twbs/rfs) by Bootstrap for automatic responsive unit measures 
-- [jekyll-docker](https://github.com/envygeeks/jekyll-docker)
-- [publisher](https://github.com/sosedoff/actions/tree/master/publisher) Actions for GitHub Pages
-- [actions-gh-pages](https://github.com/peaceiris/actions-gh-pages) (recommended)
 
 ### Troubleshooting
 
 - [GitHub Pages `remote_theme` not working](https://stackoverflow.com/a/53638023/257727)
 - [Jekyll `remote_theme` doesn't working locally](https://stackoverflow.com/a/50403126/257727)
 - [`redirect-from` routes to `0.0.0.0:4000` when running on Docker](https://tonyho.net/jekyll-docker-windows-and-0-0-0-0/)
+- [Emojis are not rendered inline](https://github.com/jekyll/jemoji/issues/92#issuecomment-495903354)
+
+### Libraries
+
+- [GitHub Emoji plugin support](https://github.com/jekyll/jemoji)
+- [rfs](https://github.com/twbs/rfs) by Bootstrap for automatic responsive unit measures 
+- :sunglasses: [jekyll-docker](https://github.com/envygeeks/jekyll-docker) to build w/out having to install Ruby or Jekyll locally
+- :sunglasses: [actions-gh-pages](https://github.com/peaceiris/actions-gh-pages)
+- [publisher](https://github.com/sosedoff/actions/tree/master/publisher) Actions for GitHub Pages
 
 ### Tools
 
@@ -76,4 +81,4 @@ redirect_from:
 
 ### Workshoppers
 
-- Mark Otto, the creator a Bootstrap, a huge Jekyll nerd: [website](https://mdo.fm/), [blog](https://markdotto.com/about/), [github](https://github.com/mdo)
+- [Mark Otto](https://markdotto.com/about/) is the creator of Bootstrap and a huge Jekyll nerd: [website](https://mdo.fm/), [blog](https://markdotto.com/), [github](https://github.com/mdo)

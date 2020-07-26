@@ -12,7 +12,7 @@ redirect_from:
 ### Contents
 
 - [Community](#community)
-- [Troubleshooting])(#troubleshooting)
+- [Troubleshooting](#troubleshooting)
 - Libraries
 - [Tools](#tools)
 - Services
@@ -42,6 +42,7 @@ redirect_from:
 
 - [Jekyll CLI](https://jekyllrb.com/docs/installation/macos/)
 - [Jekyll Configuration Options](https://jekyllrb.com/docs/configuration/)
+- [Docker for Jekyll](https://github.com/envygeeks/jekyll-docker)
 
 ### Examples
 
@@ -51,12 +52,10 @@ redirect_from:
 - [wtf-forms](https://github.com/mdo/wtf-forms/tree/gh-pages)
 - [jekyll-snippets](https://github.com/mdo/jekyll-snippets)
 - [academicpages](https://github.com/academicpages/academicpages.github.io)
-- 
 
 ### Services
 
 - [Rubygems](https://rubygems.org/) is the NPM for Jekyll Plugins
-- 
 
 ### Articles
 
@@ -72,5 +71,4 @@ redirect_from:
 
 ### Workshoppers
 
-- Mark Otto, the creator a Bootstrap, a huge Jekyll nerd: [website](https://mdo.fm/) | [blog](https://markdotto.com/about/) | [github](https://github.com/mdo)
-- 
+- Mark Otto, the creator a Bootstrap, a huge Jekyll nerd: [website](https://mdo.fm/), [blog](https://markdotto.com/about/), [github](https://github.com/mdo)

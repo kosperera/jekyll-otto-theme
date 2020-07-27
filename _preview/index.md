@@ -4,7 +4,7 @@ layout: default
 title: Welcome
 ---
 
-## Welcome :wave:
+## Welcome :vulcan_salute:
 
 Originally, this site is an adaptation with lots of :heart: from [Mark Otto's WTF website](http://wtfhtmlcss.com/). In case you were wondering, this site is:
 

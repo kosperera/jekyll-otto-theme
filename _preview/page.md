@@ -1,7 +1,7 @@
 ---
 permalink: /page/
 layout: page
-title: A page full of slides
+title: A page full of embedded slides
 ---
 
 [Speakerdeck.com](https://speakerdeck.com/) is a really simple site that lets you upload your presentation decks. Unlike other sites, [Speakerdeck](https://speakerdeck.com/) only supports PDF format and almost major presentation software can export your slides to a nice PDF. [Speakerdeck FAQ](https://speakerdeck.com/faq) is a good source of information to get started.

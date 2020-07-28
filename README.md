@@ -49,4 +49,4 @@ I would love for you to give all sorts of feedback. Here are the ways you can as
 
 Copyright (c) Kosala Nuwan Perera. All rights reserved.
 
-The source code is license under the [MIT License](LICENSE).
+The source code is not open sourced.

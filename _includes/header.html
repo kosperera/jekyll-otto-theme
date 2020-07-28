@@ -1,6 +1,8 @@
 <header>
-  {% include masthead.html %}
+  {% include masthead.html environment=jekyll.environment %}
+
   {% if site.show_social_links && site.author %}
-  {% include social-links.html %}
+    {% include social-links.html author=site.author %}
   {% endif %}
+
 </header>

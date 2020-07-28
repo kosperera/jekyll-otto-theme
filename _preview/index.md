@@ -6,7 +6,7 @@ title: Welcome
 
 ## Welcome :vulcan_salute:
 
-Originally, this site is an adaptation with lots of :heart: from [Mark Otto's WTF website](http://wtfhtmlcss.com/). In case you were wondering, this site is:
+In case you were wondering, this site is:
 
 - A GitHub [Template Repository]()
 - Coded with [VS Code]()

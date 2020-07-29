@@ -5,7 +5,7 @@ version: 1.0.0
 encoding: utf-8
 
 url: https://kosalanuwan.github.io
-baseurl: "/otto-theme"
+baseurl: "/otto"
 repository: kosalanuwan/otto-theme
 
 # Defaults
@@ -47,11 +47,18 @@ whitelist:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - Rakefile
+  - CONTRIBUTING.md
+  - CODE_OF_CONDUCT.md
   - README.md
-  - _config.docker.yml
+  - screenshot.png
+  - robots.txt
+  - vendor
+  - ruby
   - '*.gemspec'
   - '*.gem'
   - '*.sh'
+  - '*.docker.yml'
 include:
   - _pages
   - .htaccess

@@ -1,4 +1,3 @@
-{% assign on_docker = jekyll.environment contains "docker" %}
 {% assign website = site.data.website %}
 
 <div class="masthead">
@@ -10,8 +9,4 @@
     <p class="lead">
         {{ website.description }}
     </p>
-
-    {% if on_docker %}
-        <p class="lead-excerpt">{{ website.title_excerpt | default: "Oh, I'm on docker btw!" }}</p>
-    {% endif %}
 </div>

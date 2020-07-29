@@ -1,8 +1,10 @@
-<header>
-  {% include masthead.html environment=jekyll.environment %}
+{% assign website = site.data.website %}
 
-  {% if site.show_social_links && site.author %}
-    {% include social-links.html author=site.author %}
+<header>
+  {% include masthead.html %}
+
+  {% if website.show_social_links && website.author %}
+    {% include social-links.html %}
   {% endif %}
 
 </header>

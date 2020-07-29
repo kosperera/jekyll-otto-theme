@@ -1,8 +1,9 @@
+{% assign website = site.data.website %}
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="author" content="{{ site.author | xml_escape }}">
-  <meta name="description" content="{% if page.meta_description %}{{ page.meta_description | xml_escape }}{% elsif page.summary %}{{ page.summary | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}">
+  <meta name="author" content="{{ website.author | xml_escape }}">
+  <meta name="description" content="{% if page.meta_description %}{{ page.meta_description | xml_escape }}{% elsif page.summary %}{{ page.summary | xml_escape }}{% else %}{{ website.description | xml_escape }}{% endif %}">
   
   {% if page.categories %}
     <meta name="keywords" content="{{ page.categories | join: ', ' }}">
@@ -16,9 +17,9 @@
     <meta name="robots" content="all">
   {% endif %}
   
-  <title>{% if page.title %}{{ page.title | strip_html }} &#8211; {% endif %}{{ site.title | strip_html }}</title>
+  <title>{% if page.title %}{{ page.title | strip_html }} &#8211; {% endif %}{{ website.title | strip_html }}</title>
   <link rel="canonical" href="{{ page.url | absolute_url }}">
-  <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.title }}" href="{{ "/feed.xml" | relative_url }}" />
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ website.title }}" href="{{ "/feed.xml" | relative_url }}" />
   <link rel="dns-prefetch" href="//fonts.googleapis.com">
   <!-- Fonts -->
   <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic|PT+Mono&subset=latin,cyrillic' rel='stylesheet' type='text/css'>

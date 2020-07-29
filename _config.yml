@@ -2,29 +2,11 @@
 version: 1.0.0
 
 # Setup
-title: Otto
-description: >- # tagline can be a bit lengthy sometimes
-  A simple theme ideal for static sites, books, and creative writing that emphasizes content rather than aesthetic fluff.
+encoding: utf-8
+
 url: https://kosalanuwan.github.io
 baseurl: "/otto-theme"
 repository: kosalanuwan/otto-theme
-bugs: https://github.com/kosalanuwan/otto-theme/issues/new?assignees=&labels=&template=bug_report.md&title=
-date_format: "%b %-d, %Y"
-encoding: utf-8
-
-show_post_meta: true
-show_social_links: true
-
-# Site author
-author: 
-  name: Kosala Nuwan Perera
-  avatar: https://avatars1.githubusercontent.com/u/958227?s=460&u=9b166f138e17fd8a8a60177dbbaa79deff890ac6&v=4
-  email: kosala.nuwan@gmail.com
-  # Social
-  github: kosalanuwan
-  twitter: kosalanuwan
-  linkedin: kosalanuwan
-  blog: kosalanuwan
 
 # Defaults
 defaults:

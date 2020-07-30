@@ -9,7 +9,7 @@ Originally, an adaptation from [Mark Otto's WTF website](http://wtfhtmlcss.com/)
 
 ![Screenshot](screenshot.png)
 
-> The site in action.
+> Visit [kosalanuwan.github.io](https://kosalanuwan.github.io) to see the template in action.
 
 ## Configure
 
@@ -40,7 +40,7 @@ Launch your favorite browser and visit [localhost:8004](http://localhost:8004).
 
 ## Build and publish
 
-See [kosalanuwan/www](https://github.com/kosalanuwan/www/actions) tab for a demo.
+See [kosalanuwan/www](https://github.com/kosalanuwan/www/actions) repo's Actions tab for a demo.
 
 ## Feedback
 

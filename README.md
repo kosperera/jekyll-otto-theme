@@ -1,52 +1,53 @@
-# Otto Theme
+# Otto Theme :lock:
 
-![Build](https://github.com/kosalanuwan/otto-theme/workflows/Build/badge.svg)
-![Publish](https://github.com/kosalanuwan/otto-theme/workflows/Publish/badge.svg)
+Originally, an adaptation from [Mark Otto's WTF website](http://wtfhtmlcss.com/), with lots of :heart: of course. In case you were wondering, this site is:
 
-In case you were wondering, this site is:
-
-- Originally, an adaptation from [Mark Otto's WTF website](http://wtfhtmlcss.com/), with lots of :heart: of course
+- :lock: Not publicly available
 - A GitHub [Template Repository]()
-- Coded with [VS Code]()
-- Built on [Jekyll Standard Docker Image](), and
-- Hosted on [GitHub Pages]()
+- Coded with [VS Code](https://github.com/microsoft/vscode)
+- Built on [Jekyll Docker](https://github.com/envygeeks/jekyll-docker)
 
 ![Screenshot](screenshot.png)
 
 > The site in action.
 
-## Build and run from source
+## Configure
 
-First, create a copy of this template. You will only have to [Use This Template](https://github.com/kosalanuwan/otto-theme/generate/) and follow the instructions.
+Full-blown configurations are found in:
 
-Next, ensure Docker Desktop is running on your machine and the scripts are executable. See [troubleshooting](#troubleshooting). Then build and run the site locally.
+- `preview.sh`: fastest way to configuration docker and run the site locally
+- `_config.yml`: for Jekyll build and publish settings
+- `_config.docker.yml`: overrides the configurations to run on localhost
+- `_data/wesbite.yml`: website settings, features flags, author, navigation, et al content related resources that got nothing to do with Jekyll configurations
+
+## Build and run
+
+First, ensure Docker Desktop is running on your machine and the scripts are executable. See [troubleshooting](#troubleshooting).
 
 ```sh
 #!/bin/bash
+git clone https://github.com/kosalanuwan/otto-theme
 cd otto-theme
 ./preview.sh -n otto-theme-preview -p 8004
 ```
 
-Launch your favorite browser and visit <http://localhost:8004/>.
+Launch your favorite browser and visit [localhost:8004](http://localhost:8004).
 
 ### Troubleshooting
 
-- Bash scripts getting terminated `Permission denied`
+- Bash scripts getting terminated _Permission denied_
   > Make it executable with `chmod a+x ./preview.sh`
 
-## Publishing the site
+## Build and publish
 
-TBD
+See [kosalanuwan/www](https://github.com/kosalanuwan/www/actions) tab for a demo.
 
 ## Feedback
 
-I would love for you to give all sorts of feedback. Here are the ways you can ask me anything:
-
-- Ask a question [on GitHub](https://github.com/kosalanuwan/ama/), [on Twitter](https://twitter.com/kosalanuwan), or
-- Drop me an email <kosala.nuwan@gmail.com> and let me know what you think!
+Questions, comments, bugs, et al are pointed to [AMA](https://github.com/kosalanuwan/ama) repository.
 
 ## License
 
 Copyright (c) Kosala Nuwan Perera. All rights reserved.
 
-The source code is not open sourced.
+The design and the source is not open sourced.

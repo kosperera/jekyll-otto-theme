@@ -28,7 +28,7 @@ First, ensure Docker Desktop is running on your machine and the scripts are exec
 #!/bin/bash
 git clone https://github.com/kosalanuwan/otto-theme
 cd otto-theme
-./preview.sh -n otto-theme-preview -p 8004
+./preview.sh -n otto-theme -p 8004 # or just ./preview.sh
 ```
 
 Launch your favorite browser and visit [localhost:8004](http://localhost:8004).

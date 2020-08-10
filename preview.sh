@@ -1,5 +1,3 @@
-# ./preview.sh -n otto-theme-preview -p 8004
-
 #!/bin/bash
 set -ex
 
@@ -9,8 +7,8 @@ SERVER_PORT=4000
 VERSION=latest
 
 # argument defaults
-CONTAINER_NAME=
-HOST_PORT=
+CONTAINER_NAME=otto-theme
+HOST_PORT=8004
 MOUNT=`pwd`
 CONFIGS=_config.yml,_config.docker.yml
 

@@ -1,8 +1,8 @@
 ---
 permalink: /post/
+date: 1979-07-17
 layout: post
 title: A post about embedding code snippets
-tagline: A post can have it's own tagline just to express what's it about!
 ---
 
 __Posts__ have a bit more front-matter code compared to __Pages__. Here's what this `post` contains:

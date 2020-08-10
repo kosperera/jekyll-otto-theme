@@ -1,10 +1,33 @@
 {% assign website = site.data.website %}
+{% assign author = website.author %}
 
 <header>
-  {% include masthead.html %}
 
-  {% if website.show_social_links && website.author %}
-    {% include social-links.html %}
-  {% endif %}
+  <div class="masthead">
+    <h1>
+      <a href="/">
+        <span>#</span>{{ website.title }}
+      </a>
+    </h1>
+    <p class="lead">
+      {{ website.description }}
+    </p>
+    {% if website.show_social_links && website.author %}
+    <div class="links">
+      {% if author.github %}
+      <a href="https://github.com/{{ author.github }}">
+        <span class="icon icon-github-circled"></span>
+      </a>
+      {% endif %}
 
+      {% if author.twitter %}
+      <a href="https://twitter.com/{{ author.twitter }}">
+        <span class="icon icon-twitter"></span>
+      </a>
+      {% endif %}
+    </div>
+    {% endif %}
+
+  </div>
+  
 </header>

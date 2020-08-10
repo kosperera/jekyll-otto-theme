@@ -1,4 +1,5 @@
 url: http://localhost:8004
+baseurl: ""
 
 # Build settings
 show_drafts: true

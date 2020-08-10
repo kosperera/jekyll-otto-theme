@@ -37,3 +37,16 @@
 .icon-twitter:before {
     content: '\e801';
 }
+
+.twitter-button {
+    margin: .5rem 0 0;
+}
+
+.twitter-button > iframe {
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.twitter-button > iframe.twitter-tweet.twitter-tweet-rendered {
+    margin: 1rem auto !important
+}

@@ -1,4 +1,4 @@
-# Otto Theme :lock:
+# The Otto Theme :lock:
 
 Originally, an adaptation from [Mark Otto's WTF website](http://wtfhtmlcss.com/), with lots of :heart: of course. In case you were wondering, this site is:
 
@@ -9,7 +9,7 @@ Originally, an adaptation from [Mark Otto's WTF website](http://wtfhtmlcss.com/)
 
 ![Screenshot](screenshot.png)
 
-> Visit [kosalanuwan.github.io](https://kosalanuwan.github.io) to see the template in action.
+> Visit [kosalanuwan.github.io](https://kosalanuwan.github.io) or linked sites to variations of this template in action.
 
 ## Configure
 
@@ -26,8 +26,8 @@ First, ensure Docker Desktop is running on your machine and the scripts are exec
 
 ```sh
 #!/bin/bash
-git clone https://github.com/kosalanuwan/otto-theme
-cd otto-theme
+git clone https://github.com/kosalanuwan/gh-otto-theme
+cd gh-otto-theme
 ./preview.sh -n otto-theme -p 8004 # or just ./preview.sh
 ```
 
@@ -40,7 +40,7 @@ Launch your favorite browser and visit [localhost:8004](http://localhost:8004).
 
 ## Build and publish
 
-See [kosalanuwan/www](https://github.com/kosalanuwan/www/actions) repo's Actions tab for a demo.
+See [gh-account-site](https://github.com/kosalanuwan/gh-account-site/actions) repo's Actions tab for a demo.
 
 ## Feedback
 

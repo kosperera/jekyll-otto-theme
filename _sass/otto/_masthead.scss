@@ -5,6 +5,21 @@
  */
 
 header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+@media (min-width: 34em) {
+  header {
+    padding-top: 1rem;
+    max-width: 62%;
+  }
+}
+
+header {
   h1 > a {
     color: var(--heading-color);
   }
@@ -16,22 +31,6 @@ header {
   h1 span {
     display: inline-block;
     font-weight: 300;
-  }
-
-  .masthead {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding-bottom: 0.5rem;
-    margin-bottom: 3rem;
-    font-size: 1rem;
-  }
-
-  @media (min-width: 34em) {
-    .masthead {
-      padding-top: 1rem;
-      max-width: 62%;
-    }
   }
 
   .lead {

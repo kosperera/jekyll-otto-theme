@@ -111,7 +111,7 @@ ul ul {
 }
 
 hr {
-  width: 6rem;
+  width: auto;
   height: 1px;
   margin: 2.5rem 0;
   background-color: var(--hr-color);
@@ -123,8 +123,4 @@ p:last-child,
 ul:last-child,
 blockquote:last-child {
   margin-bottom: 0;
-}
-
-hr:first-of-type {
-  margin-top: 0;
 }

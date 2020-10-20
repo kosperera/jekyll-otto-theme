@@ -6,7 +6,6 @@ show_drafts: true
 future: true
 unpublished: true
 
-
 # Collections
 collections:
   preview:

@@ -1,0 +1,31 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Serve",
+            "type": "shell",
+            "dependsOn": "Build",
+
+            // See https://jekyllrb.com/docs/configuration/options/#build-command-options
+            // for the documentation about jekyll build options
+            "command": "jekyll s -w --config _config.yml,.devcontainer/_config.devcontainer.yml -P 8004",
+            
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "isBackground": true,
+        },
+        {
+            "label": "Build",
+            "type": "shell",
+            "command": "jekyll build",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+        }
+   ]
+}

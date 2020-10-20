@@ -4,8 +4,8 @@ Originally, an adaptation from [Mark Otto's WTF website](http://wtfhtmlcss.com/)
 
 - :lock: Not publicly available
 - A GitHub [Template Repository]()
-- Coded with [VS Code](https://github.com/microsoft/vscode)
-- Built on [Jekyll Docker](https://github.com/envygeeks/jekyll-docker)
+- Coded in a [development container with VS Code](https://code.visualstudio.com/docs/remote/containers)
+- Built on [Jekyll for GitHub Pages](https://github.com/kosalanuwan/devcontainers)
 
 ![Screenshot](screenshot.png)
 
@@ -15,32 +15,31 @@ Originally, an adaptation from [Mark Otto's WTF website](http://wtfhtmlcss.com/)
 
 Full-blown configurations are found in:
 
-- `preview.sh`: fastest way to configuration docker and run the site locally
-- `_config.yml`: for Jekyll build and publish settings
-- `_config.docker.yml`: overrides the configurations to run on localhost
-- `_data/wesbite.yml`: website settings, features flags, author, navigation, et al content related resources that got nothing to do with Jekyll configurations
+- `.devcontainer`: for configurations to develop in a containerized environment
+- `.vscode`: for scripts to run the site locally using the editor
+- `_config.yml`: for build and publish settings
+- `_data/wesbite.yml`: website settings, features flags, author, navigation, et al. content related resources that got nothing to do with Jekyll configurations
 
 ## Build and run
 
-First, ensure Docker Desktop is running on your machine and the scripts are executable. See [troubleshooting](#troubleshooting).
+You want to have followings installed:
+- VS Code editor
+- Remote - Container extension for VS Code
+- Docker Desktop app
+- Git for version control
 
 ```sh
 #!/bin/bash
 git clone https://github.com/kosalanuwan/gh-otto-theme
 cd gh-otto-theme
-./preview.sh -n otto-theme -p 8004 # or just ./preview.sh
+code .
 ```
 
-Launch your favorite browser and visit [localhost:8004](http://localhost:8004).
-
-### Troubleshooting
-
-- Bash scripts getting terminated _Permission denied_
-  > Make it executable with `chmod a+x ./preview.sh`
+First, you want to reopen in container to install all the required plugins, then run test task to launch the site on your favorite browser [localhost:8004](http://localhost:8004).
 
 ## Build and publish
 
-See [gh-account-site](https://github.com/kosalanuwan/gh-account-site/actions) repo's Actions tab for a demo.
+See [@kosalanuwan/gh-account-site](https://github.com/kosalanuwan/gh-account-site/actions) repo's Actions tab for a demo.
 
 ## Feedback
 

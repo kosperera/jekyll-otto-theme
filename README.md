@@ -18,9 +18,9 @@ Full-blown configurations are found in:
 - `.devcontainer`: for configurations to develop in a containerized environment
 - `.vscode`: for scripts to run the site locally using the editor
 - `_config.yml`: for build and publish settings
-- `_data/wesbite.yml`: website settings, features flags, author, navigation, et al. content related resources that got nothing to do with Jekyll configurations
+- `_data/website.yml`: website settings, features flags, author, navigation, et al. content related resources that got nothing to do with Jekyll configurations
 
-## Build and run
+## Run from Source
 
 You want to have followings installed:
 - VS Code editor

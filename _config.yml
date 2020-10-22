@@ -6,7 +6,7 @@ encoding: utf-8
 
 url: https://kosalanuwan.github.io
 baseurl: "/otto-theme"
-repository: kosalanuwan/otto-theme
+repository: kosalanuwan/gh-site-otto-theme
 
 # Defaults
 defaults:
@@ -45,6 +45,8 @@ whitelist:
 # Optimize Jekyll
 # https://github.com/jekyll/jekyll/issues/2938
 exclude:
+  - '.devcontainer'
+  - '.vscode'
   - Gemfile
   - Gemfile.lock
   - Rakefile
@@ -57,8 +59,6 @@ exclude:
   - ruby
   - '*.gemspec'
   - '*.gem'
-  - '*.sh'
-  - '*.docker.yml'
 include:
   - _pages
   - .htaccess

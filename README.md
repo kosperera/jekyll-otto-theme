@@ -30,8 +30,8 @@ You want to have followings installed:
 
 ```sh
 #!/bin/bash
-git clone https://github.com/kosalanuwan/gh-otto-theme
-cd gh-otto-theme
+git clone https://github.com/kosalanuwan/gh-site-otto-theme
+cd gh-site-otto-theme
 code .
 ```
 
@@ -39,7 +39,7 @@ First, you want to reopen in container to install all the required plugins, then
 
 ## Build and publish
 
-See [@kosalanuwan/gh-account-site](https://github.com/kosalanuwan/gh-account-site/actions) repo's Actions tab for a demo.
+See [@kosalanuwan/gh-site-kosalanuwan](https://github.com/kosalanuwan/gh-site-kosalanuwan/actions) repo's Actions tab for a demo.
 
 ## Feedback
 

@@ -1,45 +1,39 @@
 # The Otto Theme :lock:
 
-Originally, an adaptation from [Mark Otto's WTF website](http://wtfhtmlcss.com/), with lots of :heart: of course. In case you were wondering, this site is:
-
-- :lock: Not publicly available
-- A GitHub [Template Repository]()
-- Coded in a [development container with VS Code](https://code.visualstudio.com/docs/remote/containers)
-- Built on [Jekyll for GitHub Pages](https://github.com/kosalanuwan/devcontainers)
+Originally, an adaptation from [Mark Otto's WTF website](http://wtfhtmlcss.com/), with lots of :heart: of course. 
 
 ![Screenshot](screenshot.png)
 
-> Visit [kosalanuwan.github.io](https://kosalanuwan.github.io) or linked sites to variations of this template in action.
+> Visit [kosalanuwan.github.io](https://kosalanuwan.github.io) or linked sites to see flavours of this template in action.
 
-## Configure
+In case you were wondering, full-blown configurations found in:
 
-Full-blown configurations are found in:
-
-- `.devcontainer`: for configurations to develop in a containerized environment
-- `.vscode`: for scripts to run the site locally using the editor
-- `_config.yml`: for build and publish settings
-- `_data/website.yml`: website settings, features flags, author, navigation, et al. content related resources that got nothing to do with Jekyll configurations
+- `.vscode/extensions.json` has minimal extensions required
+- `.vscode/tasks.json` has the tasks to run from source locally
+- `.devcontainer` has configurations to develop in a containerized environment
+- `_config.yml` requires for jekyll to build and publish the site
+- .devcontainer/_config.devcontainer.yml` requires to override jekyll build configurations to run locally
+- `Gemfile` requires for ruby to intall runtime dependencies and plugins
+- `_data/website.yml` has website settings, features flags, author, navigation, et al. content related resources that got nothing to do with jekyll configurations
 
 ## Run from Source
 
 You want to have followings installed:
-- VS Code editor
-- Remote - Container extension for VS Code
-- Docker Desktop app
-- Git for version control
+- [VS Code](https://code.visualstudio.com/) and [recommended extensions](.vscode/extensions.json)
+- [Docker Desktop app](https://www.docker.com/products/docker-desktop)
+- [Git](https://git-scm.com/downloads)
 
 ```sh
 #!/bin/bash
-git clone https://github.com/kosalanuwan/gh-site-otto-theme
-cd gh-site-otto-theme
-code .
+gh repo clone gh-site-otto-theme
+code gh-site-otto-theme
 ```
 
-First, you want to reopen in container to install all the required plugins, then run test task to launch the site on your favorite browser [localhost:8004](http://localhost:8004).
+First, you want [to _Reopen in Container_](https://code.visualstudio.com/docs/remote/containers-tutorial) that will install all required jekyll plugins, [then _Run Test Task_](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_task-runner) to launch the site on your favorite browser [localhost:8004](http://localhost:8004).
 
-## Build and publish
+## Build and Publish
 
-See [@kosalanuwan/gh-site-kosalanuwan](https://github.com/kosalanuwan/gh-site-kosalanuwan/actions) repo's Actions tab for a demo.
+You want to have a look at [gh-site-*](https://github.com/kosalanuwan?tab=repositories&q=gh-site-) repos to see how the ci/cd pipelines have been set up.
 
 ## Feedback
 

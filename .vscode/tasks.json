@@ -6,11 +6,10 @@
         {
             "label": "Serve",
             "type": "shell",
-            "dependsOn": "Build",
 
             // See https://jekyllrb.com/docs/configuration/options/#build-command-options
             // for the documentation about jekyll build options
-            "command": "jekyll s -w --config _config.yml,.devcontainer/_config.devcontainer.yml -P 8004",
+            "command": "jekyll s -l --config _config.yml,.devcontainer/_config.devcontainer.yml -P 8004",
             
             "group": {
                 "kind": "test",

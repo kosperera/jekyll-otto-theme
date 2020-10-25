@@ -8,7 +8,11 @@
 		"terminal.integrated.shell.linux": "/bin/bash"
 	},
 	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": [],
+	"extensions": [
+		"msjsdiag.debugger-for-chrome",
+		"visualstudioexptteam.vscodeintellicode",
+		"redhat.vscode-yaml",
+	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [8004],
 	// Uncomment to run commands after the container is created - requires a Gemfile

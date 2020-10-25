@@ -12,7 +12,7 @@ In case you were wondering, full-blown configurations found in:
 - `.vscode/tasks.json` has the tasks to run from source locally
 - `.devcontainer` has configurations to develop in a containerized environment
 - `_config.yml` requires for jekyll to build and publish the site
-- .devcontainer/_config.devcontainer.yml` requires to override jekyll build configurations to run locally
+- `.devcontainer/_config.devcontainer.yml` requires to override jekyll build configurations to run locally
 - `Gemfile` requires for ruby to intall runtime dependencies and plugins
 - `_data/website.yml` has website settings, features flags, author, navigation, et al. content related resources that got nothing to do with jekyll configurations
 

@@ -4,7 +4,7 @@ tagline: >-
 description: >- # tagline can be a bit lengthy sometimes
   <a href="https://kosalanuwan.github.io"><span>@</span>kosalanuwan</a>'s Jekyll theme for static sites that emphasizes content rather aesthetic fluff.
 
-bugs: https://github.com/kosalanuwan/ama/issues/new?assignees=&labels=&template=bug_report.md&title=
+bugs: https://github.com/kosalanuwan/ama/#readme
 date_format: "%b %-d, %Y"
 
 # Feature flags

@@ -1,5 +1,5 @@
 # Custom vars
-version: 1.0.1
+version: 1.2.0
 
 # Setup
 encoding: utf-8
@@ -12,14 +12,14 @@ repository: kosalanuwan/gh-site-otto-theme
 defaults:
   # _pages
   - scope:
-      path: ""
+      path: "_pages"
       type: pages
     values:
       layout: page
   
   # _posts
   - scope: 
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: post

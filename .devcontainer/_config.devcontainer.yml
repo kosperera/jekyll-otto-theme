@@ -1,5 +1,6 @@
 url: http://localhost:8004
-baseurl: ""
+baseurl: "/otto-theme"
+repository: kosalanuwan/gh-site-otto-theme
 
 # Build settings
 show_drafts: true

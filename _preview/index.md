@@ -15,7 +15,13 @@ In case you were wondering, this site is:
 
 ### Content
 
-- Layout examples: [Default](/), [Page](/page/), [Post](/post/), and [Aw, Span!](/not-found/)
-- [URL-redirect](/notes/) example
-- Content examples: [Speaker Decks](/page/), and [Code snippets](/post/)
-- [Awesome list](/notes/) of learnings
+- Layout examples: [Default][url-home], [Page][url-page], [Post][url-post], and [Aw, Span!][url-404]
+- [URL-redirect][url-notes] example
+- Content examples: [Speaker Decks][url-page], and [Code snippets][url-post]
+- [Awesome list][url-notes] of learnings
+
+[url-home]: {{ "/" | relative_url }}
+[url-page]: {{ "/page/" | relative_url }}
+[url-post]: {{ "/post/" | relative_url }}
+[url-404]: {{ "/not-found/" | relative_url }}
+[url-notes]: {{ "/notes/" | relative_url }}

@@ -27,7 +27,7 @@ Check out the [@kosalanuwan/devcontainers][repo-devcontainers] repository for th
 ## Use This Template
 First, you will want to create a copy of this source code. This repository is marked as a `Template` so you will only have to [Use This Template][url-use-this-template] and follow the instructions.
 
-## Preview Site Locally
+## Preview Site
 With VS Code:
 - Run task: `live-serve` to preview locally
 
@@ -36,8 +36,8 @@ Check out [the `jekyll` development container documentation][docs-jekyll-devcont
 [url-use-this-template]: https://github.com/kosalanuwan/gh-site-otto-theme/generete
 [docs-jekyll-devcontainer]: https://
 
-## Publish to GitHub
-This site is not configured to pusblish. You will want to have a look at following repositories to learn multiple publishing strategies.
+## Publish
+This site is not configured to publish. You will want to have a look at following repositories to learn multiple publishing strategies.
 
 - [@alertbox/bookworm][repo-bookworm] is configured to publish on `gh-pages` branch
 - [@kosalanuwan/vscode-remote-try-bookworm][repo-try-bookworm] uses the same `gh-pages` publishing strategy

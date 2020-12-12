@@ -27,7 +27,7 @@ First, you will want to create a copy of this source code. This repository is ma
 
 ## Build and Run
 With VS Code:
-- Run task: `live-serve` to the site preview locally
+- Run task: `live-serve` to preview locally
 
 This site is configured to serve locally on [localhost:8004/otto-theme/][url-preview-locally].
 

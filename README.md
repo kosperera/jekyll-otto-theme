@@ -4,25 +4,32 @@ This is a GitHub Pages Template repository used for [@kosalanuwan/gh-site-*][gh-
 
 ![Screenshot][url-screenshot]
 
-> The Otto template site in action.
+> The Otto template site in action [localhost:8004/otto-theme][url-preview-locally].
 
 [gh-search-gh-sites]: https://github.com/kosalanuwan?tab=repositories&q=gh-site-&type=&language=
 [url-site-wtf]: http://wtfhtmlcss.com/
 [url-screenshot]: screenshot.png
+[url-preview-locally]: http://localhost:8004/otto-theme
 
 ### What's included:
 - Uses `jekyll` development container found in [@kosalanuwan/devcontainers][repo-devcontainers]
-- Uses Scss for theming the site
-- Uses [GitHub Actions][repo-actions-gh-pages] to publish into a remote repository
+- Uses `_scss` for styling the site with Jekyll Theme practices
+- Configured `_preview` collection to demonstrate sample pages
+- Configured `_data` to manage site text and flags
 
 [repo-devcontainers]: https://github.com/kosalanuwan/devcontainers/#readme
-[repo-actions-gh-pages]: https://
 
 ## Requirements
 Check out the [@kosalanuwan/devcontainers][repo-devcontainers] repository for the minimal requirements to get started.
 
 ## Using This Template
 First, you will want to create a copy of this source code. This repository is marked as a `Template` so you will only have to [Use This Template][url-use-this-template] and follow the instructions.
+
+## Build and Run
+With VS Code:
+- Run task: `live-serve` to the site preview locally
+
+This site is configured to serve locally on [localhost:8004/otto-theme/][url-preview-locally].
 
 Check out the `jekyll` development container [documentation][docs-jekyll-devcontainer] in [@kosalanuwan/devcontainers][repo-devcontainers] for the fully-blown configuration.
 

@@ -1,6 +1,6 @@
 # The Otto Theme :lock:
 
-This is a GitHub Pages Template repository used for [@kosalanuwan/gh-site-*][gh-search-gh-sites] sites. Originally, an adaptation from [Mark Otto's WTF website][url-site-wft], with lots of :heart: of course. 
+This is a GitHub Pages Template repository used for [@kosalanuwan/gh-site-*][gh-search-gh-sites] sites. Originally, an adaptation from [Mark Otto's WTF website][url-site-wtf], with lots of :heart: of course. 
 
 ![Screenshot][url-screenshot]
 

@@ -26,10 +26,10 @@ Check out the [@kosalanuwan/devcontainers][repo-devcontainers] repository for th
 First, you will want to create a copy of this source code. This repository is marked as a `Template` so you will only have to [Use This Template][url-use-this-template] and follow the instructions.
 
 ## Build and Run
+This site is configured to serve locally on [localhost:8004/otto-theme/][url-preview-locally].
+
 With VS Code:
 - Run task: `live-serve` to preview locally
-
-This site is configured to serve locally on [localhost:8004/otto-theme/][url-preview-locally].
 
 Check out the `jekyll` development container [documentation][docs-jekyll-devcontainer] in [@kosalanuwan/devcontainers][repo-devcontainers] for the fully-blown configuration.
 

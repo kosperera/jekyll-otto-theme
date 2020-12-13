@@ -22,26 +22,31 @@ This is a GitHub Pages Template repository used for [gh-site-*][gh-search-gh-sit
 [url-preview-locally]: http://localhost:8004/otto-theme
 
 ## Requirements
-Check out the [@kosalanuwan/devcontainers][repo-devcontainers] repository for the minimal requirements to get started.
+See the [@kosalanuwan/devcontainers][repo-devcontainers] repository for the minimal requirements to get started.
 
 ## Use This Template
+
+> ### Important
+> This theme cannot be used as a `remote_theme` since this is a `private` repository.
+
 First, you will want to create a copy of this source code. This repository is marked as a `Template` so you will only have to [Use This Template][url-use-this-template] and follow the instructions.
 
-## Preview Site
+[url-use-this-template]: https://github.com/kosalanuwan/gh-site-otto-theme/generete
+
+## Build and Run
 With VS Code:
 - Run task: `live-serve` to preview locally
 
-Check out [the `jekyll` development container documentation][docs-jekyll-devcontainer] in [@kosalanuwan/devcontainers][repo-devcontainers] for the fully-blown configuration.
+See the [`jekyll` container documentation in @kosalanuwan/devcontainers][docs-jekyll-devcontainer] to learn more.
 
-[url-use-this-template]: https://github.com/kosalanuwan/gh-site-otto-theme/generete
 [docs-jekyll-devcontainer]: https://
 
 ## Publish
-This site is not configured to publish. You will want to have a look at following repositories to learn multiple publishing strategies.
+This repository is not configured to publish. See below list of repositories to learn more.
 
-- [@alertbox/bookworm][repo-bookworm] is configured to publish on `gh-pages` branch
-- [@kosalanuwan/vscode-remote-try-bookworm][repo-try-bookworm] uses the same `gh-pages` publishing strategy
-- [@kosalanuwan/gh-site-*][gh-search-gh-sites] are configured to publish onto external `public` repositories.
+- [@alertbox/bookworm][repo-bookworm]: Configured to publish on `gh-pages` branch.
+- [@kosalanuwan/vscode-remote-try-bookworm][repo-try-bookworm]: Uses the same `gh-pages` publishing strategy.
+- [@kosalanuwan/gh-site-*][gh-search-gh-sites]: Configured to publish onto external `public` repositories.
 
 [repo-bookworm]: https://github.com/alertbox/bookworm/#readme
 [repo-try-bookworm]: https://github.com/kosalanuwan/vscode-remote-try-bookworm/#readme

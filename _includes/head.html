@@ -19,14 +19,14 @@
 
   <title>
     {% if page.url == '/' %}
-      #{{ website.title }} &middot; {{ website.tagline }}
+      {{ website.title }} &middot; {{ website.tagline }}
     {% else %}
-      {{ page.title }} &middot; #{{ website.title }}
+      {{ page.title }} &middot; {{ website.title }}
     {% endif %}
   </title>
 
   <link rel="canonical" href="{{ page.url | absolute_url }}">
-  <link rel="alternate" type="application/rss+xml" title="RSS Feed for #{{ website.title }}" href="{{ '/atom.xml' | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ website.title }}" href="{{ '/atom.xml' | absolute_url }}">
   <!-- Fonts -->
   <link rel="dns-prefetch" href="//fonts.googleapis.com">
   <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic|PT+Mono&subset=latin,cyrillic' rel='stylesheet' type='text/css'>

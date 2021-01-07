@@ -1,15 +1,10 @@
 {% assign website = site.data.website %}
 
 <header>
-
-    <h1>
-      <a href="{{ site.baseurl }}/">{{ website.title }}</a>
-    </h1>
-    <p class="lead">
-      {{ website.description }}
-    </p>
+    {% include masthead-title.html %}
+    
     {% if website.show_social_links && website.author %}
-      {% include social-links.html %}
+      {% include masthead-social.html %}
     {% endif %}
   
 </header>

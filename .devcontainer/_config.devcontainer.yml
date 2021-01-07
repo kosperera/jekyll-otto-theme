@@ -1,13 +1,6 @@
 url: http://localhost:8004
-repository: kosalanuwan/gh-site-otto-theme
 
 # Build settings
 show_drafts: true
 future: true
 unpublished: true
-
-# Collections
-collections:
-  preview:
-    output: true
-    permalink: /:collection/:path/

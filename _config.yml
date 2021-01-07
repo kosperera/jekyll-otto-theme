@@ -5,8 +5,8 @@ version: 1.2.0
 encoding: utf-8
 
 url: https://kosalanuwan.github.io
-baseurl: "/otto-theme"
-repository: kosalanuwan/gh-site-otto-theme
+baseurl: "/jekyll-otto-theme"
+repository: kosalanuwan/jekyll-otto-theme
 
 # Defaults
 defaults:

@@ -1,5 +1,4 @@
 {% assign website = site.data.website %}
-{% assign author = website.author %}
 
 <header>
 
@@ -10,19 +9,7 @@
       {{ website.description }}
     </p>
     {% if website.show_social_links && website.author %}
-    <div class="links">
-      {% if author.github %}
-      <a href="https://github.com/{{ author.github }}">
-        <span class="icon icon-github-circled"></span>
-      </a>
-      {% endif %}
-
-      {% if author.twitter %}
-      <a href="https://twitter.com/{{ author.twitter }}">
-        <span class="icon icon-twitter"></span>
-      </a>
-      {% endif %}
-    </div>
+      {% include social-links.html %}
     {% endif %}
   
 </header>

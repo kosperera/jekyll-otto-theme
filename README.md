@@ -1,24 +1,24 @@
-# Otto <sup><h6>This theme, a Jekyll remote theme.</h6></sup>
+# Otto
+This theme, a Jekyll remote theme.
 
-This is a GitHub Pages Template repository used for [gh-site-*][gh-search-gh-sites] sites. Originally, an adaptation from [Mark Otto's WTF website][url-site-wtf], with lots of :heart: of course. 
+This is a GitHub Pages Template repository used for [my personal sites][url-site-kosalanuwan] sites. Originally, an adaptation from [Mark Otto's WTF website][url-site-wtf], with lots of :heart: of course. 
 
 ![Screenshot][url-screenshot]
 
-> This Otto theme site in action.
+> Otto theme site in preview.
 
-[gh-search-gh-sites]: https://github.com/kosalanuwan?tab=repositories&q=gh-site-&type=&language=
+[url-site-kosalanuwan]: https://kosalanuwan.github.io/
 [url-site-wtf]: http://wtfhtmlcss.com/
 [url-screenshot]: screenshot.png
 
 ### What's included:
-- Designed and crafted for the use of [my personal website][url-site-kosalanuwan] and other micro-sites
+- Designed and crafted for the use of [my website][url-site-kosalanuwan] and other micro-sites
 - Uses `jekyll` development container found in [@kosalanuwan/devcontainers][repo-devcontainers]
 - Uses `_scss` for styling the site with [Jekyll Theme practices][url-jekyll-theming]
 - Configured `_data` to manage site text and flags
 - Configured to run locally on [localhost:8004/jekyll-otto-theme/][url-preview-locally]
 - Configured to use as a `remote_theme`
 
-[url-site-kosalanuwan]: https://kosalanuwan.github.io/
 [repo-devcontainers]: https://github.com/kosalanuwan/devcontainers/#readme
 [url-jekyll-theming]: https://
 [url-preview-locally]: http://localhost:8004/jekyll-otto-theme
@@ -45,6 +45,7 @@ plugins:
   - jekyll-remote-theme
 ```
 ```ruby
+# Gemfile
 group :jekyll_plugins do
 gem 'github-pages'
 gem 'jekyll-remote-theme'

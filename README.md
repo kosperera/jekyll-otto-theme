@@ -78,6 +78,6 @@ See the [jekyll][docs-jekyll-devcontainer] development container documentation i
 
 ## License
 
-Copyright :copyright: Kosala Nuwan Perera. All rights reserved.
+Copyright &copy; Kosala Nuwan Perera. All rights reserved.
 
 The source code is license under the [MIT License](LICENSE).

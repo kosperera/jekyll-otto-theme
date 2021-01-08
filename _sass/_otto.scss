@@ -1,5 +1,6 @@
 @charset 'UTF-8';
 
+@import 'otto/variables-override';
 @import 'otto/variables';
 
 @import 'otto/scaffoldings';
@@ -12,3 +13,5 @@
 @import 'otto/footer';
 
 @import 'otto/syntax-highlighting';
+
+@import 'otto/otto-override';

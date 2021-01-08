@@ -35,8 +35,8 @@ First, you create a copy of this repository. It is marked as a `Template` so you
 
 [url-use-this-template]: https://github.com/kosalanuwan/jekyll-otto-theme/generete
 
-## Enable `remote_theme`
-I prefer to use this theme as the Jekyll theme and all I have to do is to enable `remote_theme` for the GitHub Site. 
+## Use This Theme
+I prefer to use this repo with minimal efforts and all I have to do is enable `remote_theme`. 
 
 ```yml
 # _config.yml
@@ -53,19 +53,24 @@ gem 'jekyll-remote-theme'
 end
 ```
 
-Then I  can clean up the source code, override if there's anything I need to customize.
+Next, I  can clean up the source code, override if there's anything I need to customize.
 
 ```zsh
 #!/bin/zsh
 rm -rf _includes _layouts _sass assets
 ```
 
+## Override This Theme
+See the [themes][docs-jekyll-themes] section in jekyll documentation to learn more.
+
+[docs-jekyll-themes]: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
 ## Preview  Locally
 With VS Code:
 - Run task: build to clean build and generate the `_site`
 - Run task: `live-serve` to preview locally
 
-Then, you launch your favorite browser and visit [localhost:8004/jekyll-otto-theme/][url-preview-locally].
+Visit [localhost:8004/jekyll-otto-theme/][url-preview-locally].
 
 See the [jekyll][docs-jekyll-devcontainer] development container documentation in [@kosalanuwan/devcontainers][repo-devcontainers] to learn more.
 

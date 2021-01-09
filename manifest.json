@@ -2,7 +2,7 @@
 {
   "short_name": "otto",
   "name": "otto",
-  "description": "&lt;a href=\&quot;https://kosalanuwan.github.io\&quot;&gt;&lt;span&gt;@&lt;/span&gt;kosalanuwan&lt;/a&gt;'s Jekyll theme for static sites that emphasizes content rather aesthetic fluff.",
+  "description": "&lt;a href=\&quot;https://kosalanuwan.github.io\&quot;&gt;&lt;span&gt;@&lt;/span&gt;kosalanuwan&lt;/a&gt;'s Jekyll remote theme for static sites that emphasizes content rather aesthetic fluff.",
   "icons": [
     {
       "src": "/jekyll-otto-theme/splash-512x512.png",

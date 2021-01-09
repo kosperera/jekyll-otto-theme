@@ -79,9 +79,9 @@ Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at
 
 Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
 
-![placeholder](http://placehold.it/800x400 "Large example image")
-![placeholder](http://placehold.it/400x200 "Medium example image")
-![placeholder](http://placehold.it/200x200 "Small example image")
+![placeholder](https://via.placeholder.com/800x400/e06c75/f5f5f5 "Large example image")
+![placeholder](https://via.placeholder.com/400x200/e06c75/f5f5f5 "Medium example image")
+![placeholder](https://via.placeholder.com/200x200/e06c75/f5f5f5 "Small example image")
 
 ### Tables
 

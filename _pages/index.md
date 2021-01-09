@@ -8,20 +8,14 @@ title: Welcome
 
 In case you were wondering, this site is:
 
-- A GitHub [Template Repository]()
-- Coded with [VS Code]()
-- Built on [Jekyll Standard Docker Image](), and
+- A Jekyll [remote theme]()
+- A GitHub [template repository]()
+- Coded with [VS Code]() and [Paper app]()
+- Built with Jekyll [development container](), and
 - Hosted on [GitHub Pages]()
 
-### Content
+### Recent Posts
 
-- Layout examples: [Default][url-home], [Page][url-page], [Post][url-post], and [Aw, Span!][url-404]
-- [URL-redirect][url-notes] example
-- Content examples: [Speaker Decks][url-page], and [Code snippets][url-post]
-- [Awesome list][url-notes] of learnings
-
-[url-home]: {{ "/" | relative_url }}
-[url-page]: {{ "/page/" | relative_url }}
-[url-post]: {{ "/post/" | relative_url }}
-[url-404]: {{ "/not-found/" | relative_url }}
-[url-notes]: {{ "/notes/" | relative_url }}
+{% for post in site.posts %}
+- [{{ post.title | escape }}]({{ post.url | relative_url }})
+{% endfor %}

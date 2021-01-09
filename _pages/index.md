@@ -5,17 +5,13 @@ title: Welcome
 ---
 
 ## Welcome :vulcan_salute:
+In case you were wondering, this stie is:
 
-In case you were wondering, this site is:
-
-- A Jekyll [remote theme]()
-- A GitHub [template repository]()
-- Coded with [VS Code]() and [Paper app]()
-- Built with Jekyll [development container](), and
+- A [template repository]() for [remote theme]()
+- Coded with [VS Code development container]() and [Paper app]()
 - Hosted on [GitHub Pages]()
 
-### Recent Posts
-
+### Recent posts
 {% for post in site.posts %}
 - [{{ post.title | escape }}]({{ post.url | relative_url }})
 {% endfor %}

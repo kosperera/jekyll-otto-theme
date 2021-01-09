@@ -9,7 +9,7 @@ This is a GitHub Pages Template repository used for [my personal sites][url-site
 
 [url-site-kosalanuwan]: https://kosalanuwan.github.io/
 [url-site-wtf]: http://wtfhtmlcss.com/
-[url-screenshot]: screenshot.png
+[url-screenshot]: https://user-images.githubusercontent.com/958227/104088152-b0cb2580-528a-11eb-9093-e4932058a9db.png
 
 ### What's included:
 - Designed and crafted for the use of [my website][url-site-kosalanuwan] and other micro-sites

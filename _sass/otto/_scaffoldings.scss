@@ -5,50 +5,50 @@
  */
 
 html {
-  font-family: var(--font);
-  font-size: 16px;
+    font-family: var(--font);
+    font-size: 16px;
 }
 
 @media (min-width: 40em) {
-  html {
-    font-size: 20px;
-  }
+    html {
+        font-size: 20px;
+    }
 }
 
 body {
-  padding: 2rem var(--gutter);
-  margin: 0;
-  line-height: 1.5;
-  color: var(--body-color);
-  background-color: var(--body-bg);
+    padding: 2rem var(--gutter);
+    margin: 0;
+    line-height: 1.5;
+    color: var(--body-color);
+    background-color: var(--body-bg);
 }
 
 p {
-  position: relative;
-  margin-top: 0;
-  margin-bottom: 1rem;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 1rem;
 }
 
 img {
-  display: block;
-  margin: 0 0 1rem;
-  border-radius: 0.25rem;
+    display: block;
+    margin: 0 0 1rem;
+    border-radius: 0.25rem;
 }
 
 a {
-  font-weight: inherit;
-  line-height: inherit;
-  color: var(--link-color);
-  text-decoration: none;
-  transition: all 0.2s ease-in-out;
-  -webkit-text-decoration-color: var(--link-border-color);
-  text-decoration-skip-ink: auto;
+    font-weight: inherit;
+    line-height: inherit;
+    color: var(--link-color);
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    -webkit-text-decoration-color: var(--link-border-color);
+    text-decoration-skip-ink: auto;
 }
 
 a:hover {
-  color: var(--link-color-hover);
-  text-decoration: underline;
-  -webkit-text-decoration-color: var(--link-border-color-hover);
+    color: var(--link-color-hover);
+    text-decoration: underline;
+    -webkit-text-decoration-color: var(--link-border-color-hover);
 }
 
 h1,
@@ -57,24 +57,24 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  font-weight: 600;
-  line-height: 1.1;
-  color: var(--heading-color);
-  letter-spacing: -0.025rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    line-height: 1.1;
+    color: var(--heading-color);
+    letter-spacing: -0.025rem;
 }
 
 h1 {
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
 h2 {
-  font-size: 1.6rem;
+    font-size: 1.6rem;
 }
 
 h3 {
-  font-size: 1.2rem;
+    font-size: 1.2rem;
 }
 
 p + h1,
@@ -86,41 +86,51 @@ ul + h3,
 ol + h1,
 ol + h2,
 ol + h3 {
-  margin-top: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 strong {
-  font-weight: bold;
-  color: var(--heading-color);
+    font-weight: bold;
+    color: var(--heading-color);
 }
 
 ul,
 ol {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  padding-left: 1.5em;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-left: 1.5em;
 }
 
 .body li {
-  margin-bottom: 0.25rem;
+    margin-bottom: 0.25rem;
 }
 
 ul ul {
-  margin-top: 0.25rem;
-  margin-bottom: 0.5rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
 }
 
 hr {
-  width: auto;
-  height: 1px;
-  margin: 2.5rem 0;
-  background-color: var(--hr-color);
-  border: 0;
+    width: auto;
+    height: 1px;
+    margin: 2.5rem 0;
+    background-color: var(--hr-color);
+    border: 0;
+}
+
+// Footnote number within body text
+a[href^="#fn:"],
+// Back to footnote link
+a[href^="#fnref:"] {
+    display: inline-block;
+    margin-left: 0.1rem;
+    // font-weight: bold;
+    outline: medium none;
 }
 
 /* Tighten up margin on last items */
 p:last-child,
 ul:last-child,
 blockquote:last-child {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }

@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
       # [Optional] You can use build args to set options. e.g. 'INSTALL_ZSH' below affects the image in the Dockerfile
       args: 
-        VARIANT: "2.7.2"
+        VARIANT: "2.7.3"
         # INSTALL_ZSH: "true"
         # UPGRADE_PACKAGES: "true"
         INSTALL_NODE: "false"

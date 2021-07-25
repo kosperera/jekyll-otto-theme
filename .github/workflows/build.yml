@@ -3,10 +3,10 @@ name: Build
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   build:
@@ -15,20 +15,20 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@master
+        uses: actions/checkout@main
 
       - name: Cache
-        uses: actions/cache@master
+        uses: actions/cache@main
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('Gemfile') }}
           restore-keys: |
             ${{ runner.os }}-gems-
 
-      - name: Set up Ruby 2.6.x
-        uses: actions/setup-ruby@v1
+      - name: Set up Ruby 2.7.3
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.6.x
+          ruby-version: 2.7.3
     
       - name: Bundle install
         run: |

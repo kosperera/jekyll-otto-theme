@@ -53,7 +53,8 @@ pre.highlight {
         margin-right: 0;
         margin-left: 0;
         padding-left: calc(var(--gutter) - .25rem);
-        border-left: 0.25rem solid var(--code-snippet-border)
+        border-left: 0.25rem solid var(--code-snippet-border);
+        border-radius: 0.25rem;
     }
 }
 

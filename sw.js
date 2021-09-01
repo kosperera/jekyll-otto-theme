@@ -6,7 +6,7 @@ self.addEventListener("install", function(e) {
   e.waitUntil(
     caches.open(CACHE_NAME).then(function(cache) {
       return cache.addAll([
-        "/jekyll-otto-theme/assets/css/main.css?202108080753",
+        "/jekyll-otto-theme/assets/css/main.css?202109011847",
         "/jekyll-otto-theme/"
       ]);
     })

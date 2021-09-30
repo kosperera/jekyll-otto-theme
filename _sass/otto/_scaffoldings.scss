@@ -5,7 +5,7 @@
  */
 
 html {
-    font-family: var(--font);
+    font-family: var(--paragraph-text);
     font-size: 16px;
 }
 
@@ -19,9 +19,9 @@ body {
     padding: 2rem var(--gutter);
     margin: 0;
     line-height: 1.5;
-    color: var(--body-color);
-    background-color: var(--body-bg);
-    font-weight: var(--body-font-weight);
+    color: var(--paragraph);
+    background-color: var(--background);
+    font-weight: var(--paragraph-text-weight);
 }
 
 p {
@@ -38,17 +38,17 @@ img {
 a {
     font-weight: inherit;
     line-height: inherit;
-    color: var(--link-color);
+    color: var(--paragraph);
     text-decoration: none;
     transition: all 0.2s ease-in-out;
-    -webkit-text-decoration-color: var(--link-border-color);
+    // -webkit-text-decoration-color: var(--link-border-color);
     text-decoration-skip-ink: auto;
 }
 
 a:hover {
-    color: var(--link-color-hover);
+    color: var(--link);
     text-decoration: underline;
-    -webkit-text-decoration-color: var(--link-border-color-hover);
+    // -webkit-text-decoration-color: var(--link-border-color-hover);
 }
 
 h1,
@@ -61,7 +61,7 @@ h6 {
     margin-bottom: 0.5rem;
     font-weight: 600;
     line-height: 1.1;
-    color: var(--heading-color);
+    color: var(--headline);
     letter-spacing: -0.025rem;
 }
 
@@ -91,11 +91,12 @@ ol + h3 {
 
 strong {
     font-weight: bold;
-    color: var(--heading-color);
+    // color: var(--heading-color);
 }
 
-mark{
-    background-color: palegreen;
+mark {
+    color: var(--highlight-paragraph);
+    background-color: var(--highlight-background);
 }
 
 ul,
@@ -118,9 +119,21 @@ hr {
     width: auto;
     height: 1px;
     margin: 2.5rem 0;
-    background-color: var(--hr-color);
+    background-color: var(--stroke);
     border: 0;
 }
+
+blockquote {
+    position: relative;
+    padding: 0 0 0 1.5rem;
+    margin: 0 2rem 1rem -2rem;
+    color: var(--quote);
+    border-left: 0.5rem solid var(--quote-stroke);
+}
+
+// blockquote p:last-child {
+//     margin-bottom: 0
+// }
 
 // Footnote number within body text
 a[href^="#fn:"],

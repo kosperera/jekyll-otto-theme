@@ -6,7 +6,7 @@
 
 code,
 pre {
-    font-family: var(--monospace-font);
+    font-family: var(--code-paragraph-text);
 }
 
 code {
@@ -15,7 +15,7 @@ code {
     font-size: 85%;
     font-style: normal;
     font-weight: normal;
-    color: var(--code-color)
+    color: var(--code-paragraph)
 }
 
 @media (max-width: 30em) {
@@ -34,7 +34,7 @@ pre {
 pre code {
     padding: 0;
     font-size: 100%;
-    color: var(--pre-color);
+    color: var(--code-paragraph);
     background-color: transparent
 }
 
@@ -44,7 +44,7 @@ pre.highlight {
     margin-left: calc(var(--gutter) * -1);
     padding: 0.75rem var(--gutter);
     overflow: auto;
-    background-color: var(--pre-bg);
+    background-color: var(--code-background);
     -ms-overflow-style: -ms-autohiding-scrollbar
 }
 
@@ -53,13 +53,13 @@ pre.highlight {
         margin-right: 0;
         margin-left: 0;
         padding-left: calc(var(--gutter) - .25rem);
-        border-left: 0.25rem solid var(--code-snippet-border);
+        border-left: 0.25rem solid var(--code-paragraph);
         border-radius: 0.25rem;
     }
 }
 
 .gist .gist-file {
-    font-family: var(--monospace-font);
+    font-family: var(--code-paragraph-text);
 }
 
 .gist .gist-file .gist-data {
@@ -87,16 +87,4 @@ pre.highlight {
     // color: inherit;
     background-color: transparent;
     border-radius: 0
-}
-
-blockquote {
-    position: relative;
-    padding: 0 0 0 1.5rem;
-    margin: 0 2rem 1rem -2rem;
-    color: var(--secondary-color);
-    border-left: 0.5rem solid var(--blockquote-border)
-}
-
-blockquote p:last-child {
-    margin-bottom: 0
 }

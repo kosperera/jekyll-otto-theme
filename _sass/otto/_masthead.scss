@@ -21,11 +21,11 @@ header {
 
 header {
   h1 > a {
-    color: var(--heading-color);
+    color: var(--headline);
   }
 
   h1 > a:hover {
-    color: var(--heading-color-hover);
+    color: var(--headline-link);
   }
 
   h1 span {
@@ -36,7 +36,7 @@ header {
   .lead {
     font-size: 1.25rem;
     line-height: 1.3;
-    color: var(--heading-color);
+    color: var(--headline);
   }
 
   .lead span {
@@ -51,12 +51,12 @@ header {
   }
 
   .links a {
-    color: var(--heading-color);
+    color: var(--headline);
     margin-right: 0.5rem;
   }
 
   .links a:hover {
-    color: var(--heading-color-hover);
+    color: var(--headline-link);
     text-decoration: none;
   }
 }

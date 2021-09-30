@@ -12,23 +12,27 @@
     --base04: #707070;
     --base05: #e5e5e5;
     --base06: #e5e5e5;
-    --base07: #e06c75;
-    --base08: #e06c75;
-    --base09: #e06c75;
+    --base07: #ef4565;
+    --base08: #ef4565;
+    --base09: #f25f4c;
     --base0A: #e5e5e5;
-    --base0B: #98c379;
-    --base0C: #e06c75;
-    --base0D: #e06c75;
-    --base0E: #d19a66;
-    --base0F: #be5046;
+    --base0B: #3da9fc;
+    --base0C: #ef4565;
+    --base0D: #3da9fc;
+    --base0E: #3da9fc;
+    --base0F: #ef4565;
 }
 
 .hll {
-    background-color: #fff;
+    background-color: var(--base05);
 }
 
 .c {
     color: var(--base04);
+}
+
+.dl {
+    color: var(--base0C);
 }
 
 .err {
@@ -80,7 +84,7 @@
 }
 
 .gh {
-    color: #ffffff;
+    color: var(--base05);
     font-weight: bold;
 }
 
@@ -159,7 +163,7 @@
 }
 
 .ni {
-    color: #fff;
+    color: var(--base05);
 }
 
 .ne {
@@ -199,7 +203,7 @@
 }
 
 .w {
-    color: #fff;
+    color: var(--base05);
 }
 
 .mf {
@@ -223,7 +227,7 @@
 }
 
 .sc {
-    color: #fff;
+    color: var(--base05);
 }
 
 .sd {

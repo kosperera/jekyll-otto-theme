@@ -10,7 +10,7 @@ services:
         VARIANT: "dev-bullseye"
         INSTALL_ZSH: "true"
         UPGRADE_PACKAGES: "true"
-        # NODE_VERSION: "none"
+        NODE_VERSION: "none"
 
     volumes:
       # Forwards the local Docker socket to the container.

@@ -7,15 +7,20 @@
 code,
 pre {
     font-family: var(--code-paragraph-text);
-}
-
-code {
-    padding-right: 0.1em;
-    padding-left: 0.1em;
     font-size: 85%;
     font-style: normal;
     font-weight: normal;
     color: var(--code-paragraph);
+}
+
+:not(pre) > code {
+    display: inline-block;
+    background-color: var(--code-paragraph);
+    color: var(--code-background-secondary);
+    border: 0.5px solid var(--code-paragraph);
+    border-radius: 0.25rem;
+    padding: 0.01em 0.5em;
+    margin: 0 2px;
 }
 
 @media (max-width: 30em) {
@@ -24,30 +29,10 @@ code {
     }
 }
 
-:not(pre) > code {
-    display: inline-block;
-    font-family: var(--code-paragraph-text); //"Fira Code", Menlo, Monaco, Consolas, "Andale Mono", "Courier New", monospace;
-    background-color: var(--code-paragraph);
-    color: var(--code-background-secondary);
-    border: 1px solid var(--code-paragraph);
-    border-radius: 0.25rem;
-    padding: 2px 4px;
-    margin: 0 2px;
-    font-size: 75%;
-}
-
 pre {
     display: block;
     margin: 0 0 1rem;
-    font-size: 90%;
 }
-
-// pre code {
-//     padding: 0;
-//     font-size: 100%;
-//     color: var(--code-paragraph);
-//     background-color: transparent
-// }
 
 pre.highlight {
     margin-right: calc(var(--gutter) * -1);
@@ -74,7 +59,7 @@ pre.highlight {
 }
 
 .gist .gist-file .gist-data {
-    font-size: 80% !important;
+    font-size: 85% !important;
     line-height: 1.4;
 }
 
@@ -95,7 +80,6 @@ pre.highlight {
 
 .gist code {
     padding: 0;
-    // color: inherit;
     background-color: transparent;
     border-radius: 0;
 }

@@ -30,7 +30,7 @@
 		// Jekyll server
 		8004,
 		// Live reload server
-		35729
+		35740
 	],
 
     // Uncomment to run commands after the container is created - requires a Gemfile

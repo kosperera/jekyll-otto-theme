@@ -4,9 +4,10 @@ source 'https://rubygems.org'
 # gem 'webrick'
 
 # If you have any plugins, put them here!
-gem "github-pages", group: :jekyll_plugins
+gem "github-pages", "225", group: :jekyll_plugins
 
 group :jekyll_plugins do
+  gem 'json'
   gem 'jemoji'
   gem 'jekyll-feed'
   gem 'jekyll-sitemap'

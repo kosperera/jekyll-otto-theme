@@ -1,5 +1,10 @@
-# Otto
-This theme, a Jekyll remote theme.
+# Otto is now Zebra Snooze
+
+> **Warning**
+> 
+> This Jekyll remote theme as been archived.
+> 
+> Refer to the [zebra-snooze](https://alertbox.github.io/zebra-snooze), the same theme with similar look and feel.
 
 This is a GitHub Pages Template repository used for [my personal sites][url-site-kosalanuwan] sites. Originally, an adaptation from [Mark Otto's WTF website][url-site-wtf], with lots of :heart: of course. 
 
